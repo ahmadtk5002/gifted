@@ -3,10 +3,10 @@ const fs = require("fs");
 require("dotenv").config();
 
 const config = {
-  SESSION_ID: process.env.SESSION_ID || "",
+  SESSION_ID: process.env.SESSION_ID || "Gifted~u4BD0i74",
   HEROKU_API_TOKEN: process.env.HEROKU_API_TOKEN || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
-  KOYEB_API_TOKEN: process.env.KOYEB_API_TOKEN || "",
+  KOYEB_API_TOKEN: process.env.KOYEB_API_TOKEN || "ip8lu350v4ss0kepg23r4bq7moyfa5n5c1fks4u0m0w6pqsrx5dgas1j575lm2wn",
   KOYEB_APP_NAME: process.env.KOYEB_APP_NAME || "",
   DEPLOYMENT_PLATFORM: process.env.DEPLOYMENT_PLATFORM || "",
   AUTO_READ_STATUS: process.env.AUTO_READ_STATUS !== undefined ? process.env.AUTO_READ_STATUS === 'true' : true, 
